@@ -1,0 +1,33 @@
+
+
+
+
+
+
+
+/* tablet */
+@media (min-width: 740px){
+
+}
+
+
+
+/* more than tablet */
+@media   (min-width: 740px) and (max-width:1023px){
+
+}
+
+
+
+/* more than pc low revolutions */
+@media (min-width: 1024px) and (max-width:1039px){
+
+}
+
+/* pc medium revolutions */
+@media (max-width: 1113px){
+    .header__list{
+        display: none;
+    }
+    
+}
