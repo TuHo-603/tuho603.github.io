@@ -15,192 +15,219 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;1,700&display=swap"
         rel="stylesheet">
-    <link rel="stylesheet" href="./assets/css/grid-system/grid.css">
     <link rel="stylesheet" href="./assets/css/style.css">
-    <link rel="stylesheet" href="./assets/css/base.css">
     <link rel="stylesheet" href="./assets/css/responsive.css">
+    <link rel="stylesheet" href="./assets/css/base.css">
 </head>
 
 <body>
     <div class="main">
+        <input type="checkbox" id="check" class="btn-checkbox">
         <header class="header grid">
             <div class="header__navbar wide">
-                <img src="./assets/img/logo-color-1.png" alt="logo" class="header__logo-img">
-                <ul class="header__list">
-                    <li class="header__list-item"><a href="#" class="header__list-item-info">Home</a> </li>
-                    <li class="header__list-item menu">
-                        <a href="#" class="header__list-item-info">Packages</a>
-                        <ul class="packages__list">
-                            <li class="packages__list-item"><a href="#"
-                                    class="packages__list-item-info status-red">Search 1</a></li>
-                            <li class="packages__list-item"><a href="#" class="packages__list-item-info">Search 2</a>
-                            </li>
-                            <li class="packages__list-item menu-tour">
-                                <a href="#" class="packages__list-item-info">Tour Packages <i
-                                        class="fas fa-caret-right packages__list-item-icon"></i></a>
-                                <ul class="packages__list-tour">
-                                    <li class="packages__list-tour-item"><a href="#"
-                                            class="packages__list-tour-item-info">Carousel</a></li>
-                                    <li class="packages__list-tour-item"><a href="#"
-                                            class="packages__list-tour-item-info">Custom Map</a></li>
-                                    <li class="packages__list-tour-item"><a href="#"
-                                            class="packages__list-tour-item-info">360° Panorama</a></li>
-                                    <li class="packages__list-tour-item"><a href="#"
-                                            class="packages__list-tour-item-info">Default</a></li>
-                                </ul>
-                            </li>
-                            <li class="packages__list-item"><a href="#" class="packages__list-item-info">Destination</a>
-                            </li>
-                            <li class="packages__list-item"><a href="#" class="packages__list-item-info">Typology</a>
-                            </li>
-                        </ul>
-                    </li>
-                    <li class="header__list-item menu">
-                        <a href="#" class="header__list-item-info">Shop</a>
-                        <ul class="shop__list">
-                            <li class="shop__list-item"><a href="#" class="shop__list-item-info">Archive</a></li>
-                            <li class="shop__list-item"><a href="#" class="shop__list-item-info">Single Product</a></li>
-                            <li class="shop__list-item"><a href="#" class="shop__list-item-info">Cart</a></li>
-                            <li class="shop__list-item"><a href="#" class="shop__list-item-info">Checkout</a></li>
-                        </ul>
-                    </li>
-                    <li class="header__list-item menu">
-                        <a href="#" class="header__list-item-info">About us</a>
-                        <ul class="about__list">
-                            <li class="about__list-item"><a href="#" class="about__list-item-info  status-green">About
-                                    Us</a></li>
-                            <li class="about__list-item"><a href="#" class="about__list-item-info">About Us 2</a></li>
-                            <li class="about__list-item"><a href="#" class="about__list-item-info">About Us 3</a></li>
-                        </ul>
-                    </li>
-                    <li class="header__list-item menu">
-                        <a href="#" class="header__list-item-info">Pages</a>
-                        <ul class="pages__list">
-                            <li class="pages__list-item"><a href="#" class="pages__list-item-info">Sevices</a></li>
-                            <li class="pages__list-item"><a href="#" class="pages__list-item-info">Agency Tours</a></li>
-                            <li class="pages__list-item"><a href="#" class="pages__list-item-info">Testimonials</a></li>
-                            <li class="pages__list-item"><a href="#" class="pages__list-item-info">Prices</a></li>
-                            <li class="pages__list-item"><a href="#" class="pages__list-item-info">Promotions</a></li>
-                            <li class="pages__list-item"><a href="#" class="pages__list-item-info">Faq</a></li>
-                            <li class="pages__list-item"><a href="#" class="pages__list-item-info">Comming Soon</a></li>
-                            <li class="pages__list-item menu-about">
-                                <a href="#" class="pages__list-item-info">About Us <i
-                                        class="fas fa-caret-right pages__list-item-icon"></i></a>
-                                <ul class="about__list-info">
-                                    <li class="about__list-item"><a href="#" class="about__list-item-info">About Us
-                                            1</a></li>
-                                    <li class="about__list-item"><a href="#" class="about__list-item-info">About Us
-                                            2</a></li>
-                                    <li class="about__list-item"><a href="#" class="about__list-item-info">About Us
-                                            3</a></li>
-                                </ul>
-                            </li>
-                            <li class="pages__list-item menu-contact">
-                                <a href="#" class="pages__list-item-info">Contact <i
-                                        class="fas fa-caret-right pages__list-item-icon1"></i></a>
-                                <ul class="contact__list-info">
-                                    <li class="contact__list-item"><a href="#" class="contact__list-item-info">Contact
-                                            1</a></li>
-                                    <li class="contact__list-item"><a href="#" class="contact__list-item-info">Contact
-                                            2</a></li>
-                                </ul>
-                            </li>
-                        </ul>
-                    </li>
-                    <li class="header__list-item menu">
-                        <a href="#" class="header__list-item-info">News</a>
-                        <ul class="news__list">
-                            <li class="news__list-item"><a href="#" class="news__list-item-info">Achive</a></li>
-                            <li class="news__list-item menu-news">
-                                <a href="#" class="news__list-item-info">Single Post<i
-                                        class="fas fa-caret-right news__list-item-icon"></i></a>
-                                <ul class="news__list-info">
-                                    <li class="news__list-item"><a href="#" class="news__list-item-info">Full Width</a>
-                                    </li>
-                                    <li class="news__list-item"><a href="#" class="news__list-item-info">Right
-                                            Sidebar</a></li>
-                                    <li class="news__list-item"><a href="#" class="news__list-item-info">Left
-                                            Sidebar</a></li>
-                                </ul>
-                            </li>
-                        </ul>
-                    </li>
-                    <li class="header__list-item menu">
-                        <a href="#" class="header__list-item-info">Contact</a>
-                        <ul class="contact__list">
-                            <li class="contact__list-item"><a href="#" class="contact__list-item-info">Contact 1</a>
-                            </li>
-                            <li class="contact__list-item"><a href="#" class="contact__list-item-info">Contact 2</a>
-                            </li>
-                        </ul>
-                    </li>
-                    <li class="header__list-item"><a href="#" class="header__list-item-info btn btn__origin ">Book
-                            now</a></li>
-                </ul>
+                <div class="header__navbar-sub row">
+                    <div class="col p-2 t-2 m-6">
+                        <a href="#" class="header__navbar-link-img">
+                            <img src="./assets/img/logo-color-1.png" alt="logo" class="header__logo-img">
+                        </a>
+                    </div>
+                    <ul class="header__list ">
+                        <li class="header__list-item ">
+                            <a href="#" class="header__list-item-info">Home</a>
+                        </li>
+                        <li class="header__list-item menu ">
+                            <a href="#" class="header__list-item-info">Packages</a>
+                            <ul class="packages__list">
+                                <li class="packages__list-item"><a href="#"
+                                        class="packages__list-item-info status-red">Search 1</a></li>
+                                <li class="packages__list-item"><a href="#" class="packages__list-item-info">Search
+                                        2</a>
+                                </li>
+                                <li class="packages__list-item menu-tour">
+                                    <a href="#" class="packages__list-item-info">Tour Packages <i
+                                            class="fas fa-caret-right packages__list-item-icon"></i></a>
+                                    <ul class="packages__list-tour">
+                                        <li class="packages__list-tour-item"><a href="#"
+                                                class="packages__list-tour-item-info">Carousel</a></li>
+                                        <li class="packages__list-tour-item"><a href="#"
+                                                class="packages__list-tour-item-info">Custom Map</a></li>
+                                        <li class="packages__list-tour-item"><a href="#"
+                                                class="packages__list-tour-item-info">360° Panorama</a></li>
+                                        <li class="packages__list-tour-item"><a href="#"
+                                                class="packages__list-tour-item-info">Default</a></li>
+                                    </ul>
+                                </li>
+                                <li class="packages__list-item"><a href="#"
+                                        class="packages__list-item-info">Destination</a>
+                                </li>
+                                <li class="packages__list-item"><a href="#"
+                                        class="packages__list-item-info">Typology</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="header__list-item menu ">
+                            <a href="#" class="header__list-item-info">Shop</a>
+                            <ul class="shop__list">
+                                <li class="shop__list-item"><a href="#" class="shop__list-item-info">Archive</a></li>
+                                <li class="shop__list-item"><a href="#" class="shop__list-item-info">Single Product</a>
+                                </li>
+                                <li class="shop__list-item"><a href="#" class="shop__list-item-info">Cart</a></li>
+                                <li class="shop__list-item"><a href="#" class="shop__list-item-info">Checkout</a></li>
+                            </ul>
+                        </li>
+                        <li class="header__list-item menu ">
+                            <a href="#" class="header__list-item-info">About us</a>
+                            <ul class="about__list">
+                                <li class="about__list-item"><a href="#"
+                                        class="about__list-item-info  status-green">About
+                                        Us</a></li>
+                                <li class="about__list-item"><a href="#" class="about__list-item-info">About Us 2</a>
+                                </li>
+                                <li class="about__list-item"><a href="#" class="about__list-item-info">About Us 3</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="header__list-item menu ">
+                            <a href="#" class="header__list-item-info">Pages</a>
+                            <ul class="pages__list">
+                                <li class="pages__list-item"><a href="#" class="pages__list-item-info">Sevices</a></li>
+                                <li class="pages__list-item"><a href="#" class="pages__list-item-info">Agency Tours</a>
+                                </li>
+                                <li class="pages__list-item"><a href="#" class="pages__list-item-info">Testimonials</a>
+                                </li>
+                                <li class="pages__list-item"><a href="#" class="pages__list-item-info">Prices</a></li>
+                                <li class="pages__list-item"><a href="#" class="pages__list-item-info">Promotions</a>
+                                </li>
+                                <li class="pages__list-item"><a href="#" class="pages__list-item-info">Faq</a></li>
+                                <li class="pages__list-item"><a href="#" class="pages__list-item-info">Comming Soon</a>
+                                </li>
+                                <li class="pages__list-item menu-about">
+                                    <a href="#" class="pages__list-item-info">About Us <i
+                                            class="fas fa-caret-right pages__list-item-icon"></i></a>
+                                    <ul class="about__list-info">
+                                        <li class="about__list-item"><a href="#" class="about__list-item-info">About Us
+                                                1</a></li>
+                                        <li class="about__list-item"><a href="#" class="about__list-item-info">About Us
+                                                2</a></li>
+                                        <li class="about__list-item"><a href="#" class="about__list-item-info">About Us
+                                                3</a></li>
+                                    </ul>
+                                </li>
+                                <li class="pages__list-item menu-contact">
+                                    <a href="#" class="pages__list-item-info">Contact <i
+                                            class="fas fa-caret-right pages__list-item-icon1"></i></a>
+                                    <ul class="contact__list-info">
+                                        <li class="contact__list-item"><a href="#"
+                                                class="contact__list-item-info">Contact
+                                                1</a></li>
+                                        <li class="contact__list-item"><a href="#"
+                                                class="contact__list-item-info">Contact
+                                                2</a></li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="header__list-item menu ">
+                            <a href="#" class="header__list-item-info">News</a>
+                            <ul class="news__list">
+                                <li class="news__list-item"><a href="#" class="news__list-item-info">Achive</a></li>
+                                <li class="news__list-item menu-news">
+                                    <a href="#" class="news__list-item-info">Single Post<i
+                                            class="fas fa-caret-right news__list-item-icon"></i></a>
+                                    <ul class="news__list-info">
+                                        <li class="news__list-item"><a href="#" class="news__list-item-info">Full
+                                                Width</a>
+                                        </li>
+                                        <li class="news__list-item"><a href="#" class="news__list-item-info">Right
+                                                Sidebar</a></li>
+                                        <li class="news__list-item"><a href="#" class="news__list-item-info">Left
+                                                Sidebar</a></li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="header__list-item menu ">
+                            <a href="#" class="header__list-item-info">Contact</a>
+                            <ul class="contact__list">
+                                <li class="contact__list-item"><a href="#" class="contact__list-item-info">Contact 1</a>
+                                </li>
+                                <li class="contact__list-item"><a href="#" class="contact__list-item-info">Contact 2</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="header__list-item   ">
+                            <a href="#" class="header__list-item-info btn btn__origin ">Book now</a>
+                        </li>
+                    </ul>
+                    <div class="col t-10 m-6">
+                        <label for="check" class="fas fa-bars header__icon-bars"></label>
+                    </div>
+                </div>
             </div>
         </header>
         <div class="contain">
-            <div class="banner">
-                <div class="banner__title">
+            <div class="banner grid">
+                <!-- <div class="banner__title">
                     <div class="banner__title-text-top">
                         <h1 class="banner__title-text">
-                            Enjoy 
+                            Enjoy
                             <span class="banner__title-text-origin">Your</span>
                             Holiday
                         </h1>
                     </div>
                     <div class="banner__title-text-bottom">
                         <h1 class="banner__title-text">
-                            With Our 
+                            With Our
                             <span class="banner__title-text-origin">Agency</span>
                         </h1>
                     </div>
-                </div>
+                </div> -->
             </div>
-            <div class="banner__introduce">
+            <!-- <div class="banner__introduce">
                 <ul class="banner__list">
                     <li class="banner__item">
                         <i class="fas fa-star banner__item-icon"></i>
-                            SPECTACULAR THINGS TO DO<br>BEST PLACES TO SEE
+                        SPECTACULAR THINGS TO DO<br>BEST PLACES TO SEE
                     </li>
                     <li class="banner__item">
                         <i class="fas fa-star banner__item-icon"></i>
-                            LOCALS GUIDE AVAILABLE 
+                        LOCALS GUIDE AVAILABLE
                     </li>
                     <li class="banner__item">
                         <i class="fas fa-star banner__item-icon"></i>
-                            ALL INCLUSIVE FAMILY HOLIDAY<br>FOR ALL SEASON
+                        ALL INCLUSIVE FAMILY HOLIDAY<br>FOR ALL SEASON
                     </li>
                 </ul>
                 <div class="banner__control">
                     <a href="#" class="btn btn__origin banner__btn-link">buy the tour</a>
                 </div>
-            </div>
+            </div> -->
             <div class="slider grid">
                 <!-- slider 1 -->
                 <div class="slider__frist wide">
                     <div class="row">
-                        <div class="slider__frist-content col p-8">
+                        <div class="slider__frist-content col p-8 t-12 m-12">
                             <p class="slider__content-text">WALK TOUR AND SUGWAY</p>
                             <h2 class="slider__content-heading">The Paris <span class="span">Experience</span> !</h2>
                             <div class="slider__frist-content-info row ">
-                                <p class="slider__content-text col p-6">
+                                <p class="slider__content-text col p-6 t-6 m-12 ">
                                     Lorem ipsum dolor sit amet, consect etur adip iscing elit. Proin rhoncus urn a
                                     dictum neque molestie ultricies.
                                 </p>
-                                <p class="slider__content-text col p-6">
+                                <p class="slider__content-text col p-6 t-6 m-12">
                                     Lorem ipsum dolor sit amet, consect etur adip iscing elit. Proin rhoncus urn a
                                     dictum neque molestie ultricies.
                                 </p>
                             </div>
-                            <div class="slider__frist-control"><a href="#" class="btn btn__origin slider__frist-btn">VIEW ALL PACKAGES</a></div>
+                            <div class="slider__frist-control"><a href="#"
+                                    class="btn btn__origin slider__frist-btn">VIEW ALL PACKAGES</a></div>
                         </div>
-                        <div class="slider__frist-youtube col p-4">
+                        <div class="slider__frist-youtube col p-4 t-12 m-12">
                             <a href="#"><img src="/assets/img/icon-play.png" alt="play"
                                     class="slider__frist-link-youtube"></a>
                         </div>
                     </div>
-                    <div class="slider__frist-img wide">
+                    <div class="slider__frist-img">
                         <ul class="slider__frist-list row">
                             <li class="col slider__frist-list-item">
                                 <a href="#" class="btn__rbga-yellow slider__frist-btn-img">700 $</a>
@@ -240,14 +267,14 @@
                             <p class="slider__content-text-white">MULTIPLE BENEFITS INCLUDED</p>
                             <h1 class="slider__content-heading-white">OUR <span class="span">SERVICES</span></h1>
                         </div>
-                        <div class="row">
-                            <div class="slider__table col p-4">
-                                <div class="row">
-                                    <div class="slider__second-icon col p-2">
+                        <div class="slider__second-table row">
+                            <div class="slider__table col p-4 t-12">
+                                <div class="slider__table-center row">
+                                    <div class="slider__second-icon col p-2 t-2 m-2">
                                         <img src="./assets/img/ico-02.png" alt="insurance"
                                             class="slider__second-icon-img">
                                     </div>
-                                    <div class="slider__second-content col p-10">
+                                    <div class="slider__second-content col p-10 t-10 m-10">
                                         <h3 class="slider__second-heading">Insurance</h3>
                                         <p class="slider__second-text">Lorem ipsum dolor sit amet conse ctetur adip
                                             iscing elit Proin rhonc us urna dictum.</p>
@@ -255,13 +282,13 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="slider__table col p-4">
-                                <div class="row">
-                                    <div class="slider__second-icon col p-2">
+                            <div class="slider__table col p-4 t-12">
+                                <div class="slider__table-center row">
+                                    <div class="slider__second-icon col p-2 t-2 m-2">
                                         <img src="./assets/img/ico-06.png" alt="insurance"
                                             class="slider__second-icon-img">
                                     </div>
-                                    <div class="slider__second-content col p-10">
+                                    <div class="slider__second-content col p-10 t-10 m-10">
                                         <h3 class="slider__second-heading">Medical Care</h3>
                                         <p class="slider__second-text">Lorem ipsum dolor sit amet conse ctetur adip
                                             iscing elit Proin rhonc us urna dictum.</p>
@@ -269,13 +296,13 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="slider__table col p-4">
-                                <div class="row">
-                                    <div class="slider__second-icon col p-2">
+                            <div class="slider__table col p-4 t-12">
+                                <div class="slider__table-center row">
+                                    <div class="slider__second-icon col p-2 t-2  m-2">
                                         <img src="./assets/img/ico-01.png" alt="insurance"
                                             class="slider__second-icon-img">
                                     </div>
-                                    <div class="slider__second-content col p-10">
+                                    <div class="slider__second-content col p-10 t-10 m-10">
                                         <h3 class="slider__second-heading">Meals Included</h3>
                                         <p class="slider__second-text">Lorem ipsum dolor sit amet conse ctetur adip
                                             iscing elit Proin rhonc us urna dictum.</p>
@@ -283,13 +310,13 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="slider__table col p-4">
-                                <div class="row">
-                                    <div class="slider__second-icon col p-2">
+                            <div class="slider__table col p-4 t-12">
+                                <div class="slider__table-center row">
+                                    <div class="slider__second-icon col p-2 t-2 m-2">
                                         <img src="./assets/img/ico-03.png" alt="insurance"
                                             class="slider__second-icon-img">
                                     </div>
-                                    <div class="slider__second-content col p-10">
+                                    <div class="slider__second-content col p-10 t-10 m-10">
                                         <h3 class="slider__second-heading">Accessibility</h3>
                                         <p class="slider__second-text">Lorem ipsum dolor sit amet conse ctetur adip
                                             iscing elit Proin rhonc us urna dictum.</p>
@@ -297,13 +324,13 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="slider__table col p-4">
-                                <div class="row">
-                                    <div class="slider__second-icon col p-2">
+                            <div class="slider__table col p-4 t-12">
+                                <div class="slider__table-center row">
+                                    <div class="slider__second-icon col p-2 t-2 m-2">
                                         <img src="./assets/img/ico-05.png" alt="insurance"
                                             class="slider__second-icon-img">
                                     </div>
-                                    <div class="slider__second-content col p-10">
+                                    <div class="slider__second-content col p-10 t-10 m-10">
                                         <h3 class="slider__second-heading">Customer Care</h3>
                                         <p class="slider__second-text">Lorem ipsum dolor sit amet conse ctetur adip
                                             iscing elit Proin rhonc us urna dictum.</p>
@@ -311,13 +338,13 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="slider__table col p-4">
-                                <div class="row">
-                                    <div class="slider__second-icon col p-2">
+                            <div class="slider__table col p-4 t-12">
+                                <div class="slider__table-center row">
+                                    <div class="slider__second-icon col p-2 t-2 m-2">
                                         <img src="./assets/img/ico-04.png" alt="insurance"
                                             class="slider__second-icon-img">
                                     </div>
-                                    <div class="slider__second-content col p-10">
+                                    <div class="slider__second-content col p-10 t-10 m-10">
                                         <h3 class="slider__second-heading">Shuttle Included</h3>
                                         <p class="slider__second-text">Lorem ipsum dolor sit amet conse ctetur adip
                                             iscing elit Proin rhonc us urna dictum.</p>
@@ -331,7 +358,7 @@
                 <!-- slider 3 -->
                 <div class="slider__three wide">
                     <div class="slider__three-form row">
-                        <div class="slider__three-form-time col p-3">
+                        <div class="slider__three-form-time col p-3 t-12 m-12">
                             <div class="slider__three-time text-center">
                                 <article class="slider__three-article">
                                     <p class="slider__content-text-white ">LAST MINUTE !</p>
@@ -340,21 +367,21 @@
                                 </article>
                                 <div class="grid">
                                     <div class="row">
-                                        <div class="col p-6">
+                                        <div class="col p-6 t-6 m-12">
                                             <h1 class="slider__three-time-number">000</h1>
                                             <h2 class="slider__three-time-format">Days</h2>
                                         </div>
-                                        <div class="col p-6">
+                                        <div class="col p-6 t-6 m-12">
                                             <h1 class="slider__three-time-number">00</h1>
                                             <h2 class="slider__three-time-format">Hours</h2>
                                         </div>
                                     </div>
                                     <div class="row">
-                                        <div class="col p-6">
+                                        <div class="col p-6 t-6 m-12">
                                             <h1 class="slider__three-time-number">00</h1>
                                             <h2 class="slider__three-time-format">minutes</h2>
                                         </div>
-                                        <div class="col p-6">
+                                        <div class="col p-6 t-6 m-12">
                                             <h1 class="slider__three-time-number">00</h1>
                                             <h2 class="slider__three-time-format">seconds</h2>
                                         </div>
@@ -365,7 +392,7 @@
                         </div>
                         <div class="slider__three-form-content col p-9 grid">
                             <div class="row">
-                                <div class="col p-6">
+                                <div class="col p-6 m-12">
                                     <div class="slider__three-img">
                                         <img src="./assets/img/package-01-1024x640.jpg" alt=""
                                             class="slider__three-subimg">
@@ -389,7 +416,7 @@
                                             </h5>
                                         </div>
                                         <div class="slider__content-classify row">
-                                            <div class="col p-6">
+                                            <div class="col p-6 m-12">
                                                 <a href="#" class="classify-cultural-link">CULTURAL </a>
                                                 <div class=" classify-cultural-sub">
                                                     <a href="#" class="classify-cultural">
@@ -403,7 +430,7 @@
                                                     </div>
                                                 </div>
                                             </div>
-                                            <div class=" slider__content-price col p-6">
+                                            <div class=" slider__content-price col p-6 m-12">
                                                 <a href="#" class="slider__content-price-text">700 $</a>
                                             </div>
                                         </div>
@@ -418,7 +445,7 @@
                                         </div>
                                     </div>
                                 </div>
-                                <div class="col p-6">
+                                <div class="col p-6  m-12">
                                     <div class="slider__three-img">
                                         <img src="./assets/img/package-02-1024x640.jpg" alt=""
                                             class="slider__three-subimg">
@@ -442,7 +469,7 @@
                                             </h5>
                                         </div>
                                         <div class="slider__content-classify row">
-                                            <div class="col p-6">
+                                            <div class="col p-6 m-12">
                                                 <a href="#" class="classify-cultural-link">CULTURAL </a>
                                                 <div class=" classify-cultural-sub">
                                                     <a href="#" class="classify-cultural">
@@ -456,7 +483,7 @@
                                                     </div>
                                                 </div>
                                             </div>
-                                            <div class=" slider__content-price col p-6">
+                                            <div class=" slider__content-price col p-6 m-12">
                                                 <a href="#" class="slider__content-price-text"><span
                                                         class="slider__content-price-text-old">1000 </span>500 $</a>
                                             </div>
@@ -483,8 +510,9 @@
                         <h1 class="slider__content-heading">ARTICLES & <span class="span-light-blue">NEWS</span></h1>
                     </div>
                     <div class="slider__four-big row">
-                        <div class="slider__four-contain col p-6">
+                        <div class="slider__four-contain col p-6 m-12">
                             <div class=" slider__four-form">
+                                <img src="./assets/img/blog-01.jpg" alt="" class="img-responsive">
                                 <div class="slider__four-backgroud-blog1"></div>
                                 <div class="slider__four-content ">
                                     <p class="slider__content-title">OUR NEWS</p>
@@ -497,8 +525,9 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="slider__four-contain col p-6">
+                        <div class="slider__four-contain col p-6 m-12">
                             <div class=" slider__four-form">
+                                <img src="./assets/img/blog-04.jpg" alt="" class="img-responsive">
                                 <div class="slider__four-backgroud-blog2"></div>
                                 <div class="slider__four-content btn__green ">
                                     <p class="slider__content-title text-color">TRAVEL TIPS</p>
@@ -511,8 +540,9 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="slider__four-contain col p-6">
+                        <div class="slider__four-contain col p-6 m-12">
                             <div class="slider__four-form">
+                                <img src="./assets/img/blog-03.jpg" alt="" class="img-responsive">
                                 <div class="slider__four-content btn__blue ">
                                     <p class="slider__content-title text-color">TRAVEL TIPS</p>
                                     <h3 class="slider__content-heading-ad text-color">New Routes</h3>
@@ -525,8 +555,9 @@
                                 <div class="slider__four-backgroud-blog3"></div>
                             </div>
                         </div>
-                        <div class="slider__four-contain col p-6">
+                        <div class="slider__four-contain col p-6 m-12">
                             <div class=" slider__four-form">
+                                <img src="./assets/img/blog-02.jpg" alt="" class="img-responsive">
                                 <div class="slider__four-content btn__white ">
                                     <p class="slider__content-title">TRAVEL TIPS</p>
                                     <h3 class="slider__content-heading-ad">New Routes</h3>
@@ -549,7 +580,7 @@
                     <div class="grid">
                         <div class="footer__form wide">
                             <div class="footer__backgroud row">
-                                <div class="footer__form-introduce col p-6">
+                                <div class="footer__form-introduce col p-6 t-12 m-12">
                                     <div class="footer__logo">
                                         <a href="#" class="footer__logo-link">
                                             <img src="./assets/img/logo-color-1.png" alt="" class="footer__logo-img">
@@ -576,9 +607,9 @@
                                         </a>
                                     </div>
                                 </div>
-                                <div class="col p-6">
+                                <div class="col p-6 t-12 m-12">
                                     <div class="row">
-                                        <div class="col p-4">
+                                        <div class="col p-4 t-12 m-12">
                                             <p class="footer__info-title">OUR AGENCY</p>
                                             <ul class="footer__info-list">
                                                 <li class="footer__info-item"><i
@@ -598,7 +629,7 @@
                                                 </li>
                                             </ul>
                                         </div>
-                                        <div class="col p-4">
+                                        <div class="col p-4 t-12 m-12">
                                             <p class="footer__info-title">PARTNERS</p>
                                             <ul class="footer__info-list">
                                                 <li class="footer__info-item"><i
@@ -618,7 +649,7 @@
                                                 </li>
                                             </ul>
                                         </div>
-                                        <div class="col p-4">
+                                        <div class="col p-4 t-12 m-12">
                                             <p class="footer__info-title">LAST MINUTE</p>
                                             <ul class="footer__info-list">
                                                 <li class="footer__info-item"><i
@@ -642,11 +673,10 @@
                                 </div>
                             </div>
                             <div class="footer__src btn__origin row">
-                                <div class="footer__src-title-left col p-6">
-                                    <p class="footer__src-title-left-text text-color">THE BEST WORDPRESS TRAVEL THEME
-                                    </p>
+                                <div class="footer__src-title-left col p-6 t-12 m-12">
+                                    <p class="footer__src-title-left-text text-color">THE BEST WORDPRESS TRAVEL THEME</p>
                                 </div>
-                                <div class="footer__src-title-right col p-6">
+                                <div class="footer__src-title-right col p-6 t-12 m-12">
                                     <p class="footer__src-title-right-text text-color">COPYRIGHT NICDARK THEMES 2018</p>
                                 </div>
                             </div>
@@ -655,7 +685,125 @@
                 </div>
             </div>
         </footer>
+        <div class="menu__bars">
+            <div class="menu__bars-content">
+                <label for="check" class="far fa-times-circle menu__bars-btn"></label>
+                <ul class="menu__bars-list ">
+                    <li class="menu__bars-item ">
+                        <a href="#" class="menu__bars-item-info">Home</a>
+                    </li>
+                    <li class="menu__bars-item">
+                        <a href="#" class="menu__bars-item-info">Packages</a>
+                        <ul class="packages__list-bars">
+                            <li class="packages__list-item-bars">
+                                <a href="#" class="packages__list-item-info">Search 1</a>
+                            </li>
+                            <li class="packages__list-item-bars">
+                                <a href="#" class="packages__list-item-info">Search 2</a>
+                            </li>
+                            <li class="packages__list-item-bars menu-tour">
+                                <a href="#" class="packages__list-item-info">Tour Packages
+                                <ul class="packages__list-tour-bars">
+                                    <li class="packages__list-tour-item-bars"><a href="#"
+                                            class="packages__list-tour-item-info">Carousel</a></li>
+                                    <li class="packages__list-tour-item-bars"><a href="#"
+                                            class="packages__list-tour-item-info">Custom Map</a></li>
+                                    <li class="packages__list-tour-item-bars"><a href="#"
+                                            class="packages__list-tour-item-info">360° Panorama</a></li>
+                                    <li class="packages__list-tour-item-bars"><a href="#"
+                                            class="packages__list-tour-item-info">Default</a></li>
+                                </ul>
+                            </li>
+                            <li class="packages__list-item-bars"><a href="#" class="packages__list-item-info">Destination</a>
+                            </li>
+                            <li class="packages__list-item-bars"><a href="#" class="packages__list-item-info">Typology</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="menu__bars-item">
+                        <a href="#" class="menu__bars-item-info">Shop</a>
+                        <ul class="shop__list-bars">
+                            <li class="shop__list-item-bars"><a href="#" class="shop__list-item-info">Archive</a></li>
+                            <li class="shop__list-item-bars"><a href="#" class="shop__list-item-info">Single Product</a>
+                            </li>
+                            <li class="shop__list-item-bars"><a href="#" class="shop__list-item-info">Cart</a></li>
+                            <li class="shop__list-item-bars"><a href="#" class="shop__list-item-info">Checkout</a></li>
+                        </ul>
+                    </li>
+                    <li class="menu__bars-item">
+                        <a href="#" class="menu__bars-item-info">About us</a>
+                        <ul class="about__list-bars">
+                            <li class="about__list-item-bars"><a href="#" class="about__list-item-info">About
+                                    Us</a></li>
+                            <li class="about__list-item-bars"><a href="#" class="about__list-item-info">About Us 2</a>
+                            </li>
+                            <li class="about__list-item-bars"><a href="#" class="about__list-item-info">About Us 3</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="menu__bars-item">
+                        <a href="#" class="menu__bars-item-info">Pages</a>
+                        <ul class="pages__list-bars">
+                            <li class="pages__list-item-bars"><a href="#" class="pages__list-item-info">Sevices</a></li>
+                            <li class="pages__list-item-bars"><a href="#" class="pages__list-item-info">Agency Tours</a>
+                            </li>
+                            <li class="pages__list-item-bars"><a href="#" class="pages__list-item-info">Testimonials</a>
+                            </li>
+                            <li class="pages__list-item-bars"><a href="#" class="pages__list-item-info">Prices</a></li>
+                            <li class="pages__list-item-bars"><a href="#" class="pages__list-item-info">Promotions</a>
+                            </li>
+                            <li class="pages__list-item-bars"><a href="#" class="pages__list-item-info">Faq</a></li>
+                            <li class="pages__list-item-bars"><a href="#" class="pages__list-item-info">Comming Soon</a>
+                            </li>
+                            <li class="pages__list-item-bars menu-about">
+                                <a href="#" class="pages__list-item-info">About Us</a>
+                                <ul class="about__list-info-bars">
+                                    <li class="about__list-item-bars"><a href="#" class="about__list-item-info">About Us
+                                            1</a></li>
+                                    <li class="about__list-item-bars"><a href="#" class="about__list-item-info">About Us
+                                            2</a></li>
+                                    <li class="about__list-item-bars"><a href="#" class="about__list-item-info">About Us
+                                            3</a></li>
+                                </ul>
+                            </li>
+                            <li class="pages__list-item-bars menu-contact">
+                                <a href="#" class="pages__list-item-info">Contact</a>
+                                <ul class="contact__list-info-bars">
+                                    <li class="contact__list-item-bars"><a href="#" class="contact__list-item-info">Contact 1</a></li>
+                                    <li class="contact__list-item-bars"><a href="#" class="contact__list-item-info">Contact 2</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="menu__bars-item">
+                        <a href="#" class="menu__bars-item-info">News</a>
+                        <ul class="news__list-bars">
+                            <li class="news__list-item-bars"><a href="#" class="news__list-item-info">Achive</a></li>
+                            <li class="news__list-item-bars menu-news">
+                                <a href="#" class="news__list-item-info">Single Post</a>
+                                <ul class="news__list-info-bars">
+                                    <li class="news__list-item-bars"><a href="#" class="news__list-item-info">Full Width</a>
+                                    </li>
+                                    <li class="news__list-item-bars"><a href="#" class="news__list-item-info">Right Sidebar</a></li>
+                                    <li class="news__list-item-bars"><a href="#" class="news__list-item-info">Left Sidebar</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="menu__bars-item">
+                        <a href="#" class="menu__bars-item-info">Contact</a>
+                        <ul class="contact__list-bars">
+                            <li class="contact__list-item-bars"><a href="#" class="contact__list-item-info">Contact 1</a>
+                            </li>
+                            <li class="contact__list-item-bars"><a href="#" class="contact__list-item-info">Contact 2</a>
+                            </li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
 
+        </div>
+        <label for="check" class="backgroud__main"></label>
     </div>
 </body>
 

@@ -118,7 +118,7 @@
 @media (min-width: 740px){
     .row{
         margin-left: -8px;
-        margin-left: -8px;
+        margin-right: -8px;
     }
     .col{
         padding-left:8px;
@@ -228,7 +228,7 @@
         margin-left: 75%;
     }
     .t-o-10{
-        margin-left: 83.33332%;
+        margin-left: 83.33333%;
     }
     .t-o-11{
         margin-left: 91.66667%;
@@ -239,7 +239,7 @@
 
 /* pc medium resolution */
 
-@media (min-width: 1113px){
+@media (min-width: 1183px){
     .row{
         margin-left: -12px;
         margin-right: -12px;
@@ -272,6 +272,11 @@
     .p-1{
         flex: 0 0 8.33333%;
         max-width: 8.33333%;
+    }
+
+    .p-1-2{
+        flex: 0 0 12.5%;
+        max-width: 12.5%;
     }
     
     
@@ -363,7 +368,7 @@
 /* more than tablet  */
 
 @media   (min-width: 740px) and (max-width:1023px) {
-    .wide{
+    .grid .wide{
         width: 644px;
     } 
 }
@@ -372,7 +377,7 @@
 /* more than Pc low resolution */
 
 @media (min-width: 1024px) and (max-width:1039px) {
-    .wide{
+    .grid .wide{
         width: 984px;
     }
     .wide .row{
