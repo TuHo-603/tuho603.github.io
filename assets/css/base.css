@@ -1,0 +1,95 @@
+:root {
+    --color-white: #fff;
+    --color-origin: #f3a46b;
+    --color-black: #555;
+    --color-green: #1bbc9b;
+    --color-blue: #14b9d5;
+    --color-red: #ff6868;
+    --color-purple: #c755da;
+    --color-yellow: #ffd205;
+    --color-light-red: #f76570;
+    --text-color: #555;
+    --text-color-brown: #ada29a;
+    --background-black: #555;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+* {
+    box-sizing: inherit;
+}
+
+
+html {
+    font-family: 'Roboto', sans-serif;
+    font-size: 62.5%;
+    line-height: 2rem;
+    box-sizing: border-box;
+}
+
+.text-color{
+    color: var(--color-white)!important;
+}
+.text-color-green{
+    color: var(--color-green)!important;
+}
+.text-color-blue{
+    color: var(--color-blue) !important;
+}
+
+.text-center{
+    text-align: center;
+}
+
+.btn {
+    max-width: 250px;
+    color: var(--color-white);
+    border-radius: 30px;
+}
+
+.btn__light-red {
+    background: linear-gradient(to right, #f76570 0%, #f78d65 100%);
+}
+
+.btn__white {
+    background-color: var(--color-white);
+}
+
+.btn__origin {
+    background-color: var(--color-origin);
+}
+
+.btn__black {
+    background-color: var(--color-black);
+}
+
+.btn__rbga-green {
+    background: linear-gradient(to right, #14b9d5 0%, #14d5b1 100%);
+}
+
+.btn__blue {
+    background-color: var(--color-blue);
+}
+
+.btn__red {
+    background-color: var(--color-red);
+}
+
+.btn__green {
+    background-color: var(--color-green);
+}
+.btn__purple {
+    background-color: var(--color-purple);
+}
+.btn__yellow {
+    background-color: var(--color-yellow);
+}
+
+.btn__rbga-purple {
+    background: linear-gradient(to right, #ba71da 0%, #da717b 100%);
+}
+
+.btn__rbga-yellow {
+    background: linear-gradient(to right, #ffd205 0%, #ff9b05 100%);
+}
